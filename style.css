@@ -1,0 +1,62 @@
+/* header 영역 */
+
+header>nav{
+    background-color: grey;
+    display:flex;
+    padding: 4px;
+}
+header>nav a{
+    text-decoration: none;
+    color:white;
+    margin: 7px;
+    padding: 3px 5px;
+}
+header>nav a:hover{
+    background-color: darkgrey;
+    transition: all 1s;
+    letter-spacing: 4px;
+}
+
+.main{
+    margin: 5% 10% 25% 10%;
+    
+    display: grid;
+    flex-direction: column;
+}
+/* main - profile 영역 */
+#profile{
+    width: 320px;
+    height: 320px;
+    overflow:hidden;
+}
+#profile img{
+    transition: all 0.5s;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.profile_img:hover{
+    transform: scale(1.1);
+}
+
+/* main - detail 영역 */
+#detail{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#detail h2{
+    margin: 20px 0 5px 0;
+}
+ul{
+    margin: 0 0 0 20px;
+}
+/* footer 영역 */
+footer{
+    font-weight: 500;
+    padding: 50px 20px 20px 20px;
+    background-color: rgb(211, 211, 211);
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+    #detail{
+        grid-template-columns: 1fr 1fr;
+    }
+}

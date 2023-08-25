@@ -1,0 +1,28 @@
+
+h1{
+    margin : 10px 10px;
+    font-size: 45px;
+}
+header{
+    background-color: aliceblue;
+}
+main{
+    margin : 10px 30px;
+    width: 100%;
+    height: 90%;
+}
+main ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+main img{
+    height: 500px;
+}
+/* footer 영역 */
+footer{
+    margin: 100px 0 0 0;
+    font-weight: 500;
+    padding: 50px 20px 20px 20px;
+    background-color: rgb(211, 211, 211);
+}
