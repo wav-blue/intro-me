@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        @import url("font.css");
         @import url("style.css");
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;600&display=swap');
     </style>
-    <title>Document</title>
+    <title>profile</title>
 </head>
 <body>
     <header>
@@ -16,43 +17,44 @@
             <a href="#detail">상세 내용</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <article id="profile">
-            <img>
+            <img class="profile_img" src="image/profile.png" alt="profile_img">
         </article>
         <article id="detail">
             <section>
                 <h2>인적사항</h2>
+                <div class="decorate_bar"></div>
                 <div><b>생년월일: </b>1998. 01. 20 | O형</div>
                 <div><b>주소: </b>경기도 화성시</div>
                 <div><b>연락처: </b>wav0120@gmail.com</div>
             </section>
             <section>
                 <h2>학력사항</h2>
+                <div class="decorate_bar"></div>
                 <ul>
-                    <li>안화고등학교 | 자연계</li>
-                    <li>가천대학교 | 경기 | 물리학과 +컴퓨터공학 복수전공</li>
+                    <li><b>안화고등학교</b> | 자연계</li>
+                    <li><b>가천대학교</b> | 경기<br>
+                        물리학과 (+컴퓨터공학)</li>
                 </ul>
-                <div><b></b>1998. 01. 20 | O형</div>
-                <div><b>주소: </b>경기도 화성시</div>
-                <div><b>연락처: </b>wav0120@gmail.com</div>
             </section>
             <section>
                 <h2>자격증</h2>
-                <div>정보처리기사</div>
+                <div class="decorate_bar"></div>
+                <div><b>정보처리기사</b></div>
             </section>
             <section>
                 <h2>보유 스킬</h2>
-                <div><a>HTML</a></div>
-                <div><a>CSS</a></div>
-                <div><a>java</a></div>
-                <div><a>python</a></div>
+                <div class="decorate_bar"></div>
+                <div><a href="info/html_info.html">HTML/CSS</a></div>
+                <div><a href="info/java_info.html">java</a></div>
+                <div><a href="info/python_info.html">python</a></div>
             </section>
             
         </article>
     </main>
     <footer>
-        Author by: sujin
+        Author by : sujin
     </footer>
 </body>
 </html>
